@@ -16,7 +16,7 @@ services:
     - "/opt/nexus/:/var/lib/nexus"
 
  jenkins:
-  image: jenkins
+  image: jenkins/jenkins
   container_name: jenkins
   ports:
     - "8080:8080"
